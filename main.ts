@@ -754,7 +754,7 @@ namespace CrocoKit {
                     return (c & touch.None) == 0;
                     break;
                 case touch.C:
-                    return (c & touch.C) == 0x0001;            
+                    return (c & touch.C) == 0x0001;
                     break;
                 case touch.D:
                     return (c & touch.D) == 0x0002;
@@ -779,7 +779,7 @@ namespace CrocoKit {
                     break;
                 default:
                     break;
-            } 
+            }
         }
         return false;
     }
